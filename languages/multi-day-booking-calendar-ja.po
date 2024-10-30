@@ -1,0 +1,332 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Multi-day Booking Calendar 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"POT-Creation-Date: 2022-08-04T02:00:05+00:00\n"
+"PO-Revision-Date: 2022-08-04 11:00+0900\n"
+"Last-Translator: matorel <info@matorel.com>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.1\n"
+"X-Domain: multi-day-booking-calendar\n"
+
+#. Plugin Name of the plugin
+msgid "Multi-day Booking Calendar"
+msgstr "Multi-day Booking Calendar"
+
+#. Description of the plugin
+msgid ""
+"This plugin allows you to integrate a multi-day booking calendar into your "
+"existing form."
+msgstr ""
+"このプラグインは複数日の選択・時間の選択ができる予約カレンダーを既存の"
+"フォームに連携させることができます。"
+
+#. Author of the plugin
+msgid "matorel"
+msgstr "matorel"
+
+#: includes/endpoints.php:78 includes/endpoints.php:154
+msgid "The start date has not been sent."
+msgstr "開始日が送信されていません。"
+
+#: includes/endpoints.php:80 includes/endpoints.php:156
+msgid "The start date is an invalid value."
+msgstr "開始日が不正な値です。"
+
+#: includes/endpoints.php:85 includes/endpoints.php:161
+msgid "The end date has not been sent."
+msgstr "終了日が送信されていません。"
+
+#: includes/endpoints.php:87 includes/endpoints.php:163
+msgid "The end date is an invalid value."
+msgstr "終了日が不正な値です。"
+
+#: includes/endpoints.php:92 includes/endpoints.php:168
+msgid "The calendar ID has not been sent."
+msgstr "カレンダーIDが送信されていません。"
+
+#: includes/endpoints.php:97 includes/endpoints.php:173
+msgid "The calendar has not been published."
+msgstr "カレンダーが公開されていません。"
+
+#: includes/endpoints.php:211
+msgid "The start date is a date that cannot be reserved."
+msgstr "開始日が予約できない日付です。"
+
+#: includes/endpoints.php:216
+msgid "The end date is a date that cannot be reserved."
+msgstr "終了日が予約できない日付です。"
+
+#: includes/endpoints.php:277
+msgid "Includes time that cannot be reserved."
+msgstr "予約不可の時間が含まれています。"
+
+#: includes/endpoints.php:296
+msgid "Reservations cannot be made on holidays."
+msgstr "休日は予約できません。"
+
+#: includes/endpoints.php:303
+msgid "Non-reservable dates are included."
+msgstr "予約不可の日程が含まれています。"
+
+#: multi-day-booking-calendar.php:161 multi-day-booking-calendar.php:162
+#: multi-day-booking-calendar.php:163
+msgid "Calendar"
+msgstr "カレンダー"
+
+#: multi-day-booking-calendar.php:198
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: multi-day-booking-calendar.php:201
+msgid "Booking status"
+msgstr "予約状況"
+
+#: multi-day-booking-calendar.php:204
+msgid "Event period"
+msgstr "イベント開催期間"
+
+#: multi-day-booking-calendar.php:214 views/options.php:27
+msgid "MDBC Common Settings"
+msgstr "MDBC共通設定"
+
+#: multi-day-booking-calendar.php:215 views/options.php:51
+msgid "Common Settings"
+msgstr "共通設定"
+
+#: multi-day-booking-calendar.php:239 multi-day-booking-calendar.php:244
+msgid "Time is an invalid value."
+msgstr "時間が不正な値です。"
+
+#: multi-day-booking-calendar.php:254
+msgid "The beginning of the reservable range is an invalid value."
+msgstr "予約可能範囲の始まりが不正な値です。"
+
+#: multi-day-booking-calendar.php:257
+msgid "The end of the reservable range is an invalid value."
+msgstr "予約可能範囲の終わりが不正な値です。"
+
+#: multi-day-booking-calendar.php:333 multi-day-booking-calendar.php:336
+msgid "Reservable period"
+msgstr "予約可能期間"
+
+#: multi-day-booking-calendar.php:342
+msgid "If you do not set a period, you do not need to set it."
+msgstr "期間を設けない場合は設定する必要はありません。"
+
+#: views/options.php:21
+msgid "Upgrade to Pro"
+msgstr "Pro版へアップグレード"
+
+#: views/options.php:47
+msgid "Common Calendar"
+msgstr "共通カレンダー"
+
+#: views/options.php:55 views/options.php:58
+msgid "Reserved Entry"
+msgstr "予約指定項目"
+
+#: views/options.php:60
+msgid "Day only"
+msgstr "日にちのみ"
+
+#: views/options.php:63
+msgid "Include Time"
+msgstr "時間あり"
+
+#: views/options.php:69 views/options.php:72
+msgid "Bookable Times"
+msgstr "予約可能時間"
+
+#: views/options.php:74
+msgid "Start Times"
+msgstr "開始時間"
+
+#: views/options.php:75 views/options.php:88
+msgid "Always"
+msgstr "いつでも可能"
+
+#: views/options.php:87
+msgid "End Time"
+msgstr "終了時間"
+
+#: views/options.php:106 views/options.php:109
+msgid "Reservation Interval"
+msgstr "予約指定間隔"
+
+#: views/options.php:112 views/options.php:127
+msgid "15 min"
+msgstr "15分"
+
+#: views/options.php:113
+msgid "30 min"
+msgstr "30分"
+
+#: views/options.php:114
+msgid "1 hour"
+msgstr "1時間"
+
+#: views/options.php:119 views/options.php:153
+msgid "The Pro version"
+msgstr "Pro版なら"
+
+#: views/options.php:119
+msgid ", you can choose from 15 minutes/30 minutes/1 hour."
+msgstr "15分/30分/1時間から選択が可能です。"
+
+#: views/options.php:124 languages/main.js:3609 languages/main.js:3661
+msgid "Regular Holiday"
+msgstr "定休日"
+
+#: views/options.php:128
+msgid "Sunday"
+msgstr "日曜日"
+
+#: views/options.php:129
+msgid "Monday"
+msgstr "月曜日"
+
+#: views/options.php:130
+msgid "Tuesday"
+msgstr "火曜日"
+
+#: views/options.php:131
+msgid "Wednesday"
+msgstr "水曜日"
+
+#: views/options.php:132
+msgid "Thursday"
+msgstr "木曜日"
+
+#: views/options.php:133
+msgid "Friday"
+msgstr "金曜日"
+
+#: views/options.php:134
+msgid "Saturday"
+msgstr "土曜日"
+
+#: views/options.php:138
+msgid "Reservations across holidays"
+msgstr "休日をまたげるか"
+
+#: views/options.php:140
+msgid "Reservations can be made across holidays."
+msgstr "休日をまたいで予約可能。"
+
+#: views/options.php:145 views/options.php:148
+msgid "Reservation Period"
+msgstr "予約可能期間"
+
+#: views/options.php:153
+msgid "allows you to change the value."
+msgstr "値の変更が可能です。"
+
+#: views/options.php:158
+msgid "Please enter in English format."
+msgstr "英文形式フォーマットで入力してください。"
+
+#: views/options.php:160
+msgid "1 day later"
+msgstr "1日後"
+
+#: views/options.php:161
+msgid "After 2 weeks"
+msgstr "2週間後"
+
+#: views/options.php:162
+msgid "After 3 months"
+msgstr "3ヶ月後"
+
+#: views/options.php:163
+msgid "After 4 years"
+msgstr "4年後"
+
+#: languages/main.js:3583
+msgid "There is no start time INPUT."
+msgstr "開始日のinputがありません。"
+
+#: languages/main.js:3583
+msgid "There is no time input."
+msgstr "時間のinputがありません。"
+
+#: languages/main.js:3583
+msgid "There is no end time INPUT."
+msgstr "終了時間のinputがありません。"
+
+#: languages/main.js:3583
+msgid "You cannot make reservations during that specified time period."
+msgstr "指定期間では予約できません。"
+
+#: languages/main.js:3583
+msgid "Error. Please contact us directly."
+msgstr "エラーです。恐れ入りますが直接お問い合わせください。"
+
+#: languages/main.js:3609 languages/main.js:3661
+msgid "Holiday"
+msgstr "休日"
+
+#: languages/main.js:3635
+msgid "MMM D, YYYY"
+msgstr ""
+
+#: languages/main.js:3661
+msgid "No Setting"
+msgstr "設定無し"
+
+#: languages/main.js:3661
+msgid "Reservations possible (holiday override)"
+msgstr "予約可(休日上書き)"
+
+#: languages/main.js:3661
+msgid "Only a Few Left"
+msgstr "残りわずか"
+
+#: languages/main.js:3661
+msgid "No Reservations"
+msgstr "予約不可"
+
+#: languages/main.js:3661
+msgid "Status"
+msgstr "ステータス"
+
+#: languages/main.js:3674
+msgid "Time that can not be reserved"
+msgstr "受付できない時間"
+
+#: languages/main.js:3674
+msgid "All"
+msgstr ""
+
+#: languages/main.js:3700
+msgid "MMM D"
+msgstr ""
+
+#: languages/main.js:3700
+msgid "Availability Status"
+msgstr "空き状況"
+
+#: languages/main.js:3700
+msgid "Holiday Settings"
+msgstr "休日設定"
+
+#: languages/main.js:3726
+msgid "Set Holidays"
+msgstr "休日を設定"
+
+#: languages/main.js:3726
+msgid "Set Availability"
+msgstr "空き状況を設定"
+
+#: languages/main.js:3726
+msgid "Select Start Date"
+msgstr "開始日を選択"
+
+#: languages/main.js:3726
+msgid "Select End Date"
+msgstr "終了日を選択"

@@ -1,0 +1,111 @@
+/*** The new CSS reset - version 1.5.1 (last updated 1.3.2022) ***/
+.mdbc-form-table *,
+.mdbc-form-table *::before,
+.mdbc-form-table *::after,
+.mdbc-front *,
+.mdbc-front *::before,
+.mdbc-front *::after {
+  box-sizing: border-box;
+}
+.mdbc-form-table a,
+.mdbc-form-table button,
+.mdbc-front a,
+.mdbc-front button {
+  cursor: revert;
+}
+.mdbc-form-table ol,
+.mdbc-form-table ul,
+.mdbc-form-table menu,
+.mdbc-front ol,
+.mdbc-front ul,
+.mdbc-front menu {
+  list-style: none;
+}
+.mdbc-form-table img,
+.mdbc-front img {
+  max-width: 100%;
+}
+.mdbc-form-table table,
+.mdbc-front table {
+  border-collapse: collapse;
+}
+.mdbc-form-table textarea,
+.mdbc-front textarea {
+  white-space: revert;
+}
+.mdbc-form-table meter,
+.mdbc-front meter {
+  -webkit-appearance: revert;
+  appearance: revert;
+}
+.mdbc-form-table ::placeholder,
+.mdbc-front ::placeholder {
+  color: unset;
+}
+.mdbc-form-table :where([hidden]),
+.mdbc-front :where([hidden]) {
+  display: none;
+}
+.mdbc-form-table :where([contenteditable]),
+.mdbc-front :where([contenteditable]) {
+  -moz-user-modify: read-write;
+  -webkit-user-modify: read-write;
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
+}
+.mdbc-form-table :where([draggable=true]),
+.mdbc-front :where([draggable=true]) {
+  -webkit-user-drag: element;
+}
+
+/* =====================
+  configuration setting
+===================== */
+#mdbc-edit {
+  font-size: 12px;
+}
+@media print, screen and (min-width: 768px) {
+  #mdbc-edit {
+    font-size: 15px;
+  }
+}
+#mdbc-front {
+  background-color: #fff;
+  font-size: 12px;
+}
+@media print, screen and (min-width: 768px) {
+  #mdbc-front {
+    font-size: 15px;
+  }
+}
+
+.mdbc-admin-toolbar {
+  margin-left: -20px;
+  padding-left: 20px;
+  background: #fff;
+  border-bottom: 1px solid #ccd0d4;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mdbc-admin-toolbar .mdbc-btn-upgrade {
+  display: flex;
+  background-color: #eaaf3e;
+  color: #fff;
+  border-radius: 5px;
+  font-weight: 600;
+  height: 40px;
+  padding: 0 1em;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none !important;
+}
+@media (hover: hover) and (pointer: fine) {
+  .mdbc-admin-toolbar .mdbc-btn-upgrade:hover {
+    color: #fff;
+    background-color: #ddca61;
+  }
+}
